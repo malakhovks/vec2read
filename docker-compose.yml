@@ -27,7 +27,7 @@
 
 version: '3'
 services:
-  docsim:
+  vec2read:
     image: vec2read-image
     build:
       context: .
