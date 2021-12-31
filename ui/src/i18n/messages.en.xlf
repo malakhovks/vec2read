@@ -287,8 +287,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="0dd7505cef6bff10e4f6daa6c8fb48a8fb3c6ed0" datatype="html">
-        <source>Про проєкт UkrVectōrēs</source>
-        <target>About UkrVectōrēs</target>
+        <source>Про проєкт Vec2Read</source>
+        <target>About Vec2Read</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/term-processing/about-processing/about-processing.component.ts</context>
           <context context-type="linenumber">9</context>
@@ -335,8 +335,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="e5bc934c2f35ad78e0403efefa51748ce9500c30" datatype="html">
-        <source>UkrVectōrēs, Україна <x id="INTERPOLATION" equiv-text="а {{currentYear"/></source>
-        <target>UkrVectōrēs, Ukraine <x id="INTERPOLATION" equiv-text="а {{currentYear"/></target>
+        <source>Vec2Read, <x id="INTERPOLATION" equiv-text="а {{currentYear"/></source>
+        <target>Vec2Read, <x id="INTERPOLATION" equiv-text="а {{currentYear"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/footer/footer.component.ts</context>
           <context context-type="linenumber">31</context>
