@@ -28,21 +28,21 @@
 version: '3'
 services:
   docsim:
-    image: docsim-image
+    image: vec2read-image
     build:
       context: .
       dockerfile: Dockerfile-docsim
-    container_name: docsim
+    container_name: vec2read
     restart: always
   nginx:
-    image: nginx-docsim-image
+    image: nginx-vec2read-image
     build:
       context: .
       dockerfile: Dockerfile-nginx
-    container_name: nginx-docsim
+    container_name: nginx-vec2read
     restart: always
     ports:
       - 7010:80
       - 7011:443
     depends_on:
-      - docsim
+      - vec2read
