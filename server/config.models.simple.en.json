@@ -36,6 +36,18 @@
                     "terms": "казка легенда байка",
                     "similarity": "технологія"
                 }
+            },
+            {
+                "description": "Distributional semantic model of full Russian National Corpus - ruscorpora_upos_cbow_300_20_2019",
+                "name": "ruscorpora_upos_cbow_300_20_2019",
+                "link": "./models/ruscorpora_upos_cbow_300_20_2019/model.txt",
+                "language": "ru",
+                "index": 3,
+                "placeholders": {
+                    "term": "самолёт",
+                    "terms": "лиса волк заяц",
+                    "similarity": "технология"
+                }
             }
         ]
     }
