@@ -44,9 +44,9 @@
                 "language": "ru",
                 "index": 3,
                 "placeholders": {
-                    "term": "самолёт",
-                    "terms": "лиса волк заяц",
-                    "similarity": "технология"
+                    "term": "зверь_NOUN",
+                    "terms": "лиса_NOUN волк_NOUN заяц_NOUN",
+                    "similarity": "волк_NOUN"
                 }
             }
         ]
