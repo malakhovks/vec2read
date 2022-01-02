@@ -16,7 +16,8 @@ cosine_center = model.most_similar(positive=['избушка', 'на','курь�
 print(cosine_center)
 
 from gensim.models import Word2Vec, KeyedVectors
-model.wv.save_word2vec_format('./models/navec_hudlit_v1_12B_500K_300d_100q.bin', binary=True)
+# Save model
+# model.wv.save_word2vec_format('./models/navec_hudlit_v1_12B_500K_300d_100q.bin', binary=True)
 
 model2 = KeyedVectors.load_word2vec_format('./models/navec_hudlit_v1_12B_500K_300d_100q.bin', binary=True) 
 
