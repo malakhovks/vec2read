@@ -14,3 +14,12 @@ print(cosine_center)
 print('---------------')
 cosine_center = model.most_similar(positive=['избушка', 'на','курьих', 'ножках', 'лес', 'молодец'], topn=10)
 print(cosine_center)
+
+from gensim.models import Word2Vec, KeyedVectors
+model.wv.save_word2vec_format('./models/navec_hudlit_v1_12B_500K_300d_100q.bin', binary=True)
+
+model2 = KeyedVectors.load_word2vec_format('./models/navec_hudlit_v1_12B_500K_300d_100q.bin', binary=True) 
+
+print('---------------')
+cosine_center = model2.wv.most_similar(positive=['избушка', 'на','курьих', 'ножках', 'лес', 'молодец'], topn=10)
+print(cosine_center)
