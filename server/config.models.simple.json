@@ -48,6 +48,18 @@
                     "terms": "лиса_NOUN волк_NOUN заяц_NOUN",
                     "similarity": "волк_NOUN"
                 }
+            },
+            {
+                "description": "Модель hudlit_12B_500K_300d_100q из проекта Navec — компактные эмбеддинги для русского языка, обученные на 145ГБ художественной русской литературы.",
+                "name": "hudlit_12B_500K_300d_100q",
+                "link": "./models/navec_hudlit_v1_12B_500K_300d_100q.bin",
+                "language": "ru",
+                "index": 4,
+                "placeholders": {
+                    "term": "избушка",
+                    "terms": "лиса волк медведь заяц",
+                    "similarity": "баба-яга"
+                }
             }
         ]
     }
