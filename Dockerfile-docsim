@@ -35,11 +35,10 @@ RUN apt-get -y clean \
     && apt-get -y install bzip2 \
     && apt-get -y install wget \
     && apt-get -y install curl \
-    # && apt-get -y install httpie \
-    && apt-get -y install aria2 \
+    && apt-get -y install httpie \
     && pip install -r ./deploy/requirements.txt --src /usr/local/src \
     # Download models
-    && aria2c https://nextcloud.ai-service.ml/index.php/s/ePpZJHMcs76LrNw/download/navec_hudlit_v1_12B_500K_300d_100q.bin \
+    && http -d nextcloud.ai-service.ml/index.php/s/ePpZJHMcs76LrNw/download/navec_hudlit_v1_12B_500K_300d_100q.bin \
     && wget -O ./models/fiction.lowercased.lemmatized.word2vec.300d.bz2 https://lang.org.ua/static/downloads/models/fiction.lowercased.lemmatized.word2vec.300d.bz2 \
     && bzip2 -d ./models/fiction.lowercased.lemmatized.word2vec.300d.bz2 \
     && wget -O ./models/ubercorpus.lowercased.lemmatized.word2vec.300d.bz2 https://lang.org.ua/static/downloads/models/ubercorpus.lowercased.lemmatized.word2vec.300d.bz2 \
