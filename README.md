@@ -90,11 +90,11 @@ Project and documentation are in active development! For any technical clarifica
 -------
 
 <a name="toc-en"></a>
-## docsim/UkrVectōrēs - An NLU-Powered tool for knowledge discovery, classification, diagnostics and prediction.
+## Vec2Read – An NLP-Powered set of services for the speed reading skills evolution in children of primary general education.
 
-You can preview a completed latest version of the UkrVectōrēs app here:
+You can preview a completed latest version of the Vec2Read app here:
 
-- [http://test.ulif.org.ua:51082](http://test.ulif.org.ua:51082)
+- [https://vec2read.ml](https://vec2read.ml)
 
 ### Caution/Disclaimer
 
