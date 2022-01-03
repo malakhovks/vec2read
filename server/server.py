@@ -61,7 +61,10 @@ else:
     models_word2vec = models["models"]["word2vec"]
     for model_index, model in enumerate(models_word2vec):
         # Load and init word2vec model
-        word_vectors = gensim.models.KeyedVectors.load_word2vec_format(model['link'])
+        if model['link'] == './models/navec_hudlit_v1_12B_500K_300d_100q.bin':
+            word_vectors = gensim.models.KeyedVectors.load_word2vec_format(model['link'], binary=True)
+        else:
+            word_vectors = gensim.models.KeyedVectors.load_word2vec_format(model['link'])
         word_vectors.init_sims(replace=True)
         models_array.append(word_vectors)
     del word_vectors
