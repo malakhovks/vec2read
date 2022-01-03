@@ -23,8 +23,8 @@ from flask_cors import CORS
 
 import gensim
 
-__author__ = "Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com> and Alexander Shchurov <alexandershchurov@gmail.com>"
-__copyright__ = "Copyright (C) 2020 Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com> and Alexander Shchurov <alexandershchurov@gmail.com>"
+__author__ = "Kyrylo Malakhov <malakhovks@nas.gov.ua> and Oleksandr Shchurov <alexandershchurov@gmail.com> and Tatiana Malakhova <malakhovatb@outlook.com>"
+__copyright__ = "Copyright (C) 2022 Kyrylo Malakhov <malakhovks@nas.gov.ua> and Oleksandr Shchurov <alexandershchurov@gmail.com> and Tatiana Malakhova <malakhovatb@outlook.com>"
 
 app = Flask(__name__)
 CORS(app)
