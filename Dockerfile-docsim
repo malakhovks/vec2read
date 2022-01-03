@@ -35,17 +35,17 @@ RUN apt-get -y clean \
     && apt-get -y install bzip2 \
     && apt-get -y install wget \
     && apt-get -y install curl \
-    && apt-get -y install httpie \
+    # && apt-get -y install httpie \
     && pip install -r ./deploy/requirements.txt --src /usr/local/src \
     # Download models
-    && wget 'https://onedrive.live.com/download?cid=6E30536EE062F9C9&resid=6E30536EE062F9C9%2175543&authkey=AOD8PeRE6LlVEiE' \
+    && wget -O ./models/navec_hudlit_v1_12B_500K_300d_100q.bin 'https://onedrive.live.com/download?cid=6E30536EE062F9C9&resid=6E30536EE062F9C9%2175543&authkey=AOD8PeRE6LlVEiE' \
+    # && http https://nextcloud.ai-service.ml/index.php/s/ePpZJHMcs76LrNw/download/navec_hudlit_v1_12B_500K_300d_100q.bin > ./models/navec_hudlit_v1_12B_500K_300d_100q.bin \
     && wget -O ./models/fiction.lowercased.lemmatized.word2vec.300d.bz2 https://lang.org.ua/static/downloads/models/fiction.lowercased.lemmatized.word2vec.300d.bz2 \
     && bzip2 -d ./models/fiction.lowercased.lemmatized.word2vec.300d.bz2 \
     && wget -O ./models/ubercorpus.lowercased.lemmatized.word2vec.300d.bz2 https://lang.org.ua/static/downloads/models/ubercorpus.lowercased.lemmatized.word2vec.300d.bz2 \
     && bzip2 -d ./models/ubercorpus.lowercased.lemmatized.word2vec.300d.bz2 \
     && wget -O ./models/180.zip http://vectors.nlpl.eu/repository/20/180.zip \
     && unzip -j ./models/180.zip model.txt -d ./models/ruscorpora_upos_cbow_300_20_2019/ \
-    # && http https://nextcloud.ai-service.ml/index.php/s/ePpZJHMcs76LrNw/download/navec_hudlit_v1_12B_500K_300d_100q.bin > ./models/navec_hudlit_v1_12B_500K_300d_100q.bin \
     && rm -r ./models/180.zip \
     && rm -r /root/.cache \
     && apt-get -y clean \
