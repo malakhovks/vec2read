@@ -53,8 +53,10 @@ export class WordsSimilarityComponent implements OnInit, OnDestroy {
   public async getWordsSimilarity(): Promise<void> {
     if (this.model) {
       const reqObj: ITermCompareReq = {
-        word_1: this.firstTerm.toLocaleLowerCase(),
-        word_2: this.secondTerm.toLocaleLowerCase()
+        // word_1: this.firstTerm.toLocaleLowerCase(),
+        // word_2: this.secondTerm.toLocaleLowerCase()
+        word_1: this.firstTerm,
+        word_2: this.secondTerm
       };
 
       this.similarityData = await this.apiService.getWordsSimilarity(reqObj, this.model.index);

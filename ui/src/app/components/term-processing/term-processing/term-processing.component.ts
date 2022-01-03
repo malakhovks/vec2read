@@ -65,7 +65,8 @@ export class TermProcessingComponent implements OnInit, OnDestroy {
 
   public async getProcess(): Promise<void> {
     if (this.terms && this.activeTab !== undefined) {
-      const termArr = this.terms.toLocaleLowerCase().split(' ');  // array of words which splited by whitespace;
+      // const termArr = this.terms.toLocaleLowerCase().split(' ');  // array of words which splited by whitespace;
+      const termArr = this.terms.split(' ');  // array of words which splited by whitespace;
 
       if (termArr?.length && this.model) {
         const reqObj: ITermReq | ITermArrReq = this.activeTab === TabEnum.TermArray ? { word: termArr[0] } : { words: termArr };
@@ -86,7 +87,8 @@ export class TermProcessingComponent implements OnInit, OnDestroy {
   public applyFilter(event: Event): void {
     const filterValue = (event.target as HTMLInputElement).value;
 
-    this.data.filter = filterValue.trim().toLowerCase();
+    // this.data.filter = filterValue.trim().toLowerCase();
+    this.data.filter = filterValue.trim();
   }
 
   private setCustomSort(): void {
