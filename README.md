@@ -1,10 +1,10 @@
-# Vec2Read – Программный комплекс для развития навыков скорочтения у детей начального общего образования
+# Vec2Read – Программный комплекс сервисов для развития навыков скорочтения у детей начального общего образования
 
-**Vec2Read** – An NLU-powered tool for knowledge discovery, classification, diagnostics and prediction.
+**Vec2Read** – An NLP-Powered set of services for the speed reading skills evolution in children of primary general education.
 
-You can preview a completed latest version of the Vec2Read app here:
+You can preview a completed latest version of the Vec2Read set of services here:
 
-- [http://test.ulif.org.ua:51082](http://test.ulif.org.ua:51082)
+- [https://vec2read.ml](https://vec2read.ml)
 
 <!-- ## DOI
 
@@ -22,15 +22,15 @@ Project and documentation are in active development! For any technical clarifica
 -------
 
 <a name="toc-ru"></a>
-## Vec2Read – Программный комплекс для развития навыков скорочтения у детей начального общего образования.
+## Vec2Read – Программный комплекс сервисов для развития навыков скорочтения у детей начального общего образования.
 
 А также, **Vec2Read** – это когнитивно-семантический калькулятор, работающий на основе NLU, для выявления, классификации, диагностики и прогнозирования знаний.
 
 Сервис **Vec2Read** вычисляет семантические отношения между сущностями естественного языка в рамках выбранной дистрибутивно-семантической модели векторного представления сущностей.
 
-Вы можете просмотреть актуальную версию приложения Vec2Read по ссылке:
+Вы можете просмотреть актуальную версию программного комплекса сервисов Vec2Read по ссылке:
 
-- [http://test.ulif.org.ua:51082](http://test.ulif.org.ua:51082)
+- [https://vec2read.ml](https://vec2read.ml)
 
 ### Внимание
 
