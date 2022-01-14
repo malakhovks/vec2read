@@ -12,7 +12,7 @@
       </trans-unit>
       <trans-unit id="9602f81b7c857bc65f1cdc88f5371b6693e06f62" datatype="html">
         <source>Величко Віталій Юрійович</source>
-        <target>Vitalii Velychko</target>
+        <target>Tatiana Malakhova</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
           <context context-type="linenumber">16</context>
@@ -20,7 +20,7 @@
       </trans-unit>
       <trans-unit id="3f2b4052529d25fd3758c07e63b5355c21f87aeb" datatype="html">
         <source>Доцент, к.т.н., с.н.с.</source>
-        <target>Assistant professor, senior researcher</target>
+        <target>Teacher</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
           <context context-type="linenumber">16</context>
@@ -28,7 +28,7 @@
       </trans-unit>
       <trans-unit id="9bfcc11761b2951fa8149300445c78417dc0f12b" datatype="html">
         <source>Інститут кібернетики ім. В.М. Глушкова НАН України. Відділ мікропроцесорної техніки № 205</source>
-        <target>V.M.Glushkov Institute of Cybernetics of the National Academy of Sciences of Ukraine. Microprocessor technology department No. 205</target>
+        <target>Lugansk educational institution - secondary school No. 17 named after Valery Brumel</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
           <context context-type="linenumber">16</context>
@@ -148,7 +148,7 @@
       </trans-unit>
       <trans-unit id="1ad66e600f265e1b6e70e01823a7a79ce24cf8a8" datatype="html">
         <source>Сервіс обчислює семантичні відношення між словами українською мовою в рамках обраної моделі.</source>
-        <target>UkrVectōrēs service computes semantic relations between words in Ukrainian within the selected model.</target>
+        <target>Vec2Read service computes semantic relations between words within the selected model.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/term-processing/words-similarity/words-similarity.component.ts</context>
           <context context-type="linenumber">64</context>
@@ -208,7 +208,7 @@
       </trans-unit>
       <trans-unit id="27f0c5692ed20412347aa217bf61e89a13bfcddf" datatype="html">
         <source>Сервіс обчислює семантичні асоціати слова українською мовою в рамках обраної моделі.</source>
-        <target>UkrVectōrēs service computes semantic associates between words in Ukrainian within the selected model.</target>
+        <target>Vec2Read service computes semantic associates between words in Ukrainian within the selected model.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/term-processing/term-processing/term-processing.component.ts</context>
           <context context-type="linenumber">109</context>
@@ -264,7 +264,7 @@
       </trans-unit>
       <trans-unit id="b78763762a5025377f981f64aaac1838ea8fd585" datatype="html">
         <source>Сервіс обчислює центр лексичного кластера слів українською мовою в рамках обраної моделі.</source>
-        <target>UkrVectōrēs service computes the lexical cluster center for one-word entities in Ukrainian within the selected model.</target>
+        <target>Vec2Read service computes the lexical cluster center for one-word entities in Ukrainian within the selected model.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/term-processing/term-processing/term-processing.component.ts</context>
           <context context-type="linenumber">109</context>
@@ -295,8 +295,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="2b686d3a5476a8a14c611b3b36e1eaa66c57ebf6" datatype="html">
-        <source>Сервіс UkrVectōrēs обчислює семантичні відношення між сутностями української мови в рамках обраної дистрибутино-семантичної моделі векторного представлення сутностей.</source>
-        <target>UkrVectōrēs service computes semantic relations between entities in Ukrainian within the selected distributional semantic model (word embeddings).</target>
+        <source>Сервіс Vec2Read обчислює семантичні відношення між сутностями української мови в рамках обраної дистрибутино-семантичної моделі векторного представлення сутностей.</source>
+        <target>Vec2Read service computes semantic relations between entities in Ukrainian within the selected distributional semantic model (word embeddings).</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/term-processing/about-processing/about-processing.component.ts</context>
           <context context-type="linenumber">9</context>
