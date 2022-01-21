@@ -38,8 +38,7 @@ RUN apt-get -y clean \
     # && apt-get -y install httpie \
     && pip install -r ./deploy/requirements.txt --src /usr/local/src \
     # Download models
-    && curl -J -O "https://nextcloud.ai-service.ml/index.php/s/ePpZJHMcs76LrNw/download" \
-    # && wget -O ./models/navec_hudlit_v1_12B_500K_300d_100q.bin 'https://onedrive.live.com/download?cid=6E30536EE062F9C9&resid=6E30536EE062F9C9%2175543&authkey=AOD8PeRE6LlVEiE' \
+    && wget -O ./models/navec_hudlit_v1_12B_500K_300d_100q.bin 'https://onedrive.live.com/download?cid=6E30536EE062F9C9&resid=6E30536EE062F9C9%2175543&authkey=AOD8PeRE6LlVEiE' \
     # && (cd ./models && curl -J -O "https://nextcloud.ai-service.ml/index.php/s/ePpZJHMcs76LrNw/download") \
     # && http https://nextcloud.ai-service.ml/index.php/s/ePpZJHMcs76LrNw/download/navec_hudlit_v1_12B_500K_300d_100q.bin > ./models/navec_hudlit_v1_12B_500K_300d_100q.bin \
     && wget -O ./models/fiction.lowercased.lemmatized.word2vec.300d.bz2 https://lang.org.ua/static/downloads/models/fiction.lowercased.lemmatized.word2vec.300d.bz2 \
